@@ -8,6 +8,7 @@ html{
     margin: 0;
     box-sizing: border-box;
     font-family: "poppins", sans-serif;
+    overflow: hidden;
 }
 
 
@@ -19,6 +20,8 @@ a{
 
 section{
     scroll-snap-align: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 

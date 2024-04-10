@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["*"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
       "edu-sa": ["Edu SA Beginner", "cursive"],
       mono: ["Roboto Mono", "monospace"],
-
+      poppins: ["Poppins", "monospace"],
     },
     colors: {
       white: "#fff",
@@ -130,9 +130,6 @@ export default {
         maxContent: "1260px",
         maxContentTab: "650px"
       },
-      fontFamily: {
-        poppins: ["Poppins"]
-      }
     },
   },
   plugins: [],
