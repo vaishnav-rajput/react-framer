@@ -10,6 +10,7 @@ export default {
       raleway: ["Raleway"],
     },
     colors: {
+      // cardcover: rgba(31, 31, 31, 0.4),
       white: "#fff",
       black: "#000",
       transparent: "#ffffff00",
@@ -132,6 +133,9 @@ export default {
         maxContent: "1260px",
         maxContentTab: "650px"
       },
+      boxShadow: {
+        'custom': '0px 0px 40px #1f1f1f',
+      }
       
     },
   },

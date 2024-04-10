@@ -1,16 +1,17 @@
 import React from 'react'
 import {motion} from "framer-motion"
 import intro_1 from "../../assets/intro_1.mp4"
-import "./Home.scss"
+import "./Home.css"
 import logo from "../../assets/logo.png"
 import { PiHandWavingFill } from "react-icons/pi";
+import Card from '../card/Card'
 
 
 const Home = () => {
   return (
     <div>
         {/*  Hero section */}
-        <section className='flex flex-col justify-center items-center font-poppins' >
+        <section className='flex flex-col justify-center items-center font-poppins overflow-y-hidden' >
             <div className='relative'>
             <nav className='w-screen absolute top-1 flex justify-between mt-3 items-center'>
                 {/* logo */}
@@ -24,7 +25,7 @@ const Home = () => {
                     <motion.li>Contact</motion.li>
                 </motion.ul>
             </nav>
-            <video className=' video' muted autoPlay>
+            <video className=' overflow-y-hidden video' muted autoPlay>
                 <source src={intro_1}></source>
             </video>
             {/* desc  */}
@@ -45,30 +46,23 @@ const Home = () => {
         </section>
 
         {/* Project section */}
-        <section>
-        <div class="project-section bg-dullwhite mt-4 ">
-            <h2 class="page-header text-4xl  text-center  pt-11">Projects</h2>
-
-            <div class="project-container ">
-                <div class="project-card" id="project1">
-                    <div class="project-number">01</div>
-                    <div class="project-content">
-
-                        <h2 class="project-heading">Tint & Orange</h2>
-
-                        <p class="project-subHeading">Its is a car modification copany 
-                            which provide you sheets to protect your car from scratch
-                        </p>
-                        
-                    </div>
-                </div>
+        <div className="project-section bg-dullwhite ">
+            <div className="overflow-hidden text-4xl  text-center font-poppins  mt-11">Projects</div>
+            <div className="project-container relative  max-w-[1200px] mx-auto py-5 flex flex-col gap-7">
+            {/* project card */}
+                <Card side="right" number={"01"} title={"Family of Eatries"} description={"Designed a Mobile App"}/>
+                <Card side="left" number={"02"} title={"Just Jam"} description={"Designed a Music App"}/>
+                <Card side="right" number={"03"} title={"Furnisher"} description={"Designed a Furniture App"}/>
+                <Card side="left" number={"04"} title={"Company profile"} description={"Designed a Static App"}/>
             </div>
+           
+            
 
         </div>
-        </section>
+
         {/* About section */}
         <section>
-
+        
         </section>
         {/* Contact section  */}
         <section>
