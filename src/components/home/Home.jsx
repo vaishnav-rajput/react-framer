@@ -30,8 +30,8 @@ const Home = () => {
             {/* desc  */}
             <div className='flex  absolute left-[150px]   bottom-40 w-[1080px] mx-auto flex-col gap-y-2'>
                 <div className='flex gap-2 items-center'>
-                     <h1 className='  font-poppins'>Hello there</h1>
-                    <div >
+                     <h1 className='  font-raleway text-2xl'>Hello there</h1>
+                    <div className='text-2xl'>
                         <PiHandWavingFill  />
                     </div>
                 </div>
@@ -46,9 +46,25 @@ const Home = () => {
 
         {/* Project section */}
         <section>
-            <div>
+        <div class="project-section bg-dullwhite mt-4 ">
+            <h2 class="page-header text-4xl  text-center  pt-11">Projects</h2>
 
+            <div class="project-container ">
+                <div class="project-card" id="project1">
+                    <div class="project-number">01</div>
+                    <div class="project-content">
+
+                        <h2 class="project-heading">Tint & Orange</h2>
+
+                        <p class="project-subHeading">Its is a car modification copany 
+                            which provide you sheets to protect your car from scratch
+                        </p>
+                        
+                    </div>
+                </div>
             </div>
+
+        </div>
         </section>
         {/* About section */}
         <section>

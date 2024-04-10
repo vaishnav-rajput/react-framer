@@ -7,11 +7,13 @@ export default {
       "edu-sa": ["Edu SA Beginner", "cursive"],
       mono: ["Roboto Mono", "monospace"],
       poppins: ["Poppins", "monospace"],
+      raleway: ["Raleway"],
     },
     colors: {
       white: "#fff",
       black: "#000",
       transparent: "#ffffff00",
+      dullwhite: "#e7e7e7",
       richblack: {
         5: "#F1F2FF",
         25: "#DBDDEA",
@@ -130,6 +132,7 @@ export default {
         maxContent: "1260px",
         maxContentTab: "650px"
       },
+      
     },
   },
   plugins: [],
