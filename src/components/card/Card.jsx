@@ -22,6 +22,7 @@ const Card = ({number, title, description, side}) => {
             </p>
             <h2 className="project-heading xs:text-l lg:text-2xl font-bold transition-all duration-200 ease-in bg-white font-poppins overflow-hidden z-13 group-hover:scale-125 ">{title}</h2>
         </motion.div>
+        
     </motion.div>
     </motion.div>
     
