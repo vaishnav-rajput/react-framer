@@ -1,8 +1,20 @@
-.project-card{
+.project-card-01{
     background-image: url(../../assets/project1.jpg);
     position: relative;
-    }
-    
+}
+
+.project-card-02{
+    background-image: url(../../assets/Project2.png);
+}
+
+.project-card-03{
+    background-image: url(../../assets/Project3.png);
+}
+  
+.project-card-04{
+    background-image: url(../../assets//Project4.png);
+}
+
 .project-card::after{
 content:"";
 position: absolute;

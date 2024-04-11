@@ -2,6 +2,18 @@
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    screens: {
+      'xs': '374px',
+      'sm': '640px',
+
+      'md': '768px',
+
+      'lg': '1024px',
+
+      'xl': '1280px',
+
+      '2xl': '1536px',
+    },
     fontFamily: {
       inter: ["Inter", "sans-serif"],
       "edu-sa": ["Edu SA Beginner", "cursive"],
@@ -11,6 +23,7 @@ export default {
     },
     colors: {
       // cardcover: rgba(31, 31, 31, 0.4),
+      textColor: "#777777",
       white: "#fff",
       black: "#000",
       transparent: "#ffffff00",
